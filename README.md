@@ -60,6 +60,15 @@ MiMo · Kimi · Qwen · Gemini · GPT · Claude · Grok · DeepSeek（官方）
 
 所有文案走 `ctx.locale`，中英文各一份（`locale/zh.json`、`locale/en.json`）。
 
+## 截图
+
+四张卡片由本仓库 `docs/cards/` 的 PNG 提供，文案脚本在 `docs/promo-script.xlsx`。
+
+| | |
+|---|---|
+| ![开场钩子](docs/cards/S1-开场钩子.png) | ![原理一 · 落点](docs/cards/S8-原理一-落点.png) |
+| ![原理二 · 令牌与存储](docs/cards/S9-原理二-令牌与存储.png) | ![收尾 · 仓库](docs/cards/S10-收尾-仓库.png) |
+
 ## 安装
 
 ```powershell
