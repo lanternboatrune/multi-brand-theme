@@ -63,12 +63,12 @@ MiMo · Kimi · Qwen · Gemini · GPT · Claude · Grok · DeepSeek（官方）
 ## 安装
 
 ```powershell
-# 指向本目录（link:）
+git clone https://github.com/nonomint/multi-brand-theme.git
 & "D:\Deepseek\resources\runtime\cli\bin\dsh.cmd" plugin --profile desktop add `
-  "<工作区>\develop-plugins\multi-brand-theme"
+  "<clone 目录>\multi-brand-theme"
 ```
 
-或在 DSH 的插件页「从本地目录安装」。注册后**完整退出并重开** DSH（客户端 bundle 在启动时捕获）。
+也可以在 DSH 插件页「从本地目录安装」。注册后**完整退出并重开** DSH（客户端 bundle 在启动时捕获）。
 
 依赖：`package.json` 的 `dsh.client.inject` 声明了
 
