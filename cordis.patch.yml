@@ -1,0 +1,3 @@
+- insert:
+    - id: multi-brand-theme
+      name: '@local/multi-brand-theme'
