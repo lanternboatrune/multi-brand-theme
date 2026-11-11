@@ -72,7 +72,7 @@ MiMo · Kimi · Qwen · Gemini · GPT · Claude · Grok · DeepSeek（官方）
 ## 安装
 
 ```powershell
-git clone https://github.com/nonomint/multi-brand-theme.git
+git clone https://github.com/lanternboatrune/multi-brand-theme.git
 & "D:\Deepseek\resources\runtime\cli\bin\dsh.cmd" plugin --profile desktop add `
   "<clone 目录>\multi-brand-theme"
 ```

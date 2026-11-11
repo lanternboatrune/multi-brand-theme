@@ -37,7 +37,7 @@
 全部存在本机浏览器，不联网、不上传。
 
 开源 MIT：
-github.com/nonomint/multi-brand-theme
+github.com/lanternboatrune/multi-brand-theme
 
 安装：插件页从本地目录装，装完完整重开一次 DSH。
 设置 → 外观，三段各一个开关。
