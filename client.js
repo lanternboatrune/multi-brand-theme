@@ -336,11 +336,11 @@ window.__ModuleLoader__.load({
 
       const BRAND_BY_ID = {};
       for (const brand of BRANDS) BRAND_BY_ID[brand.id] = brand;
-      // GPT 这一项按 ChatGPT 呈现：绿底白色结形的图标 + ChatGPT 文字标。
+      // Codex 这一项按 Codex 呈现：黑底白色图案 + Codex 文字标。
       if (BRAND_BY_ID.gpt) {
-        BRAND_BY_ID.gpt.label = 'ChatGPT';
-        BRAND_BY_ID.gpt.badgeBg = '#10A37F';
-        BRAND_BY_ID.gpt.text = 'ChatGPT';
+        BRAND_BY_ID.gpt.label = 'Codex';
+        BRAND_BY_ID.gpt.badgeBg = '#111111';
+        BRAND_BY_ID.gpt.text = 'Codex';
         BRAND_BY_ID.gpt.textWeight = 600;
         BRAND_BY_ID.gpt.wordSize = 18;
         BRAND_BY_ID.gpt.iconSize = 24;
@@ -350,7 +350,7 @@ window.__ModuleLoader__.load({
         'brand.heading': '侧栏品牌',
         'brand.intro': '左上角显示哪家厂商的字标。选择即时生效，只保存在本机浏览器。',
         'brand.official': 'DeepSeek',
-        'brand.note': '单色字标跟随主题文字颜色；DeepSeek 为官方「鲸鱼 + 字标」原样，MiMo 用官方亮/暗双图；Kimi / Qwen / Gemini / GPT / Grok / Claude 带品牌色图标。',
+        'brand.note': '单色字标跟随主题文字颜色；DeepSeek 为官方「鲸鱼 + 字标」原样，MiMo 用官方亮/暗双图；Kimi / Qwen / Gemini / Grok / Claude 带品牌色图标，Codex 为黑底白图案。',
       'brand.paintLabel': '使用品牌色',
       'brand.paintHint': '开启后每个标志用各家自己的颜色；关闭则跟随主题强调色。',
       };
@@ -358,7 +358,7 @@ window.__ModuleLoader__.load({
         'brand.heading': 'Sidebar brand',
         'brand.intro': 'Which wordmark appears in the top-left corner. Applies instantly and stays in this browser.',
         'brand.official': 'DeepSeek',
-        'brand.note': 'Mono wordmarks follow the theme text color; DeepSeek is the official whale lockup, MiMo uses its official pair, and Kimi / Qwen / Gemini / GPT / Grok / Claude carry brand-colored marks.',
+        'brand.note': 'Mono wordmarks follow the theme text color; DeepSeek is the official whale lockup, MiMo uses its official pair, Kimi / Qwen / Gemini / Grok / Claude carry brand-colored marks, and Codex is a white mark on black.',
         'brand.paintLabel': 'Use brand colors',
         'brand.paintHint': 'Turn on to paint each mark in its own brand color; turn off to follow the theme accent color.',
       };

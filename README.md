@@ -31,7 +31,7 @@
 
 把侧栏左上角的品牌区换成 7 家第三方字标之一，或保留 DeepSeek 官方原样：
 
-MiMo · Kimi · Qwen · Gemini · GPT · Claude · Grok · DeepSeek（官方）
+MiMo · Kimi · Qwen · Gemini · Codex · Claude · Grok · DeepSeek（官方）
 
 落点是 `sidebar.brand.mark`（图标/字标）与 `sidebar.brand.name`（名称），注册 priority `-1`，压过官方默认占用；官方占用会被置为 inactive，切回「DeepSeek」时自动恢复。
 
@@ -123,7 +123,7 @@ multi-brand-theme/
 
 ## 第三方商标说明
 
-侧栏品牌里的 MiMo、Kimi、Qwen、Gemini、GPT、Claude、Grok 等字标均为各自权利人的商标，此处内联仅作个人界面的品牌切换展示，与本项目不存在关联、赞助或背书关系，版权归各家所有。权利人若要求移除，删除 `client.js` 中对应的 `BRANDS` 条目即可。
+侧栏品牌里的 MiMo、Kimi、Qwen、Gemini、Codex、Claude、Grok 等字标均为各自权利人的商标，此处内联仅作个人界面的品牌切换展示，与本项目不存在关联、赞助或背书关系，版权归各家所有。权利人若要求移除，删除 `client.js` 中对应的 `BRANDS` 条目即可。
 
 ## 许可证
 
